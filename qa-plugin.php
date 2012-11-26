@@ -2,11 +2,11 @@
 
 /*
 	Plugin Name: Q2AM Next Previous Question
-	Plugin URI: http://www.q2amarket.com
-	Plugin Update Check URI: http://www.q2amarket.com/meta/update/plugins/q2am-recent-questions/qa-plugin.php
+	Plugin URI: https://github.com/q2amarket/q2am-next-previous-question
+	Plugin Update Check URI: https://github.com/q2amarket/q2am-next-previous-question/blob/master/qa-plugin.php
 	Plugin Description: Add next previous question link to the question page.
 	Plugin Version: 1.0
-	Plugin Date: 2012-11-26
+	Plugin Date: 2012-11-27
 	Plugin Author: Q2A Market
 	Plugin Author URI: http://www.q2amarket.com
 	Plugin License: GPLv2

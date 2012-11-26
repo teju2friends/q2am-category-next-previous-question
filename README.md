@@ -32,27 +32,27 @@ once you complete installation than you can start to use the plugin with followi
 
 Here you will find all available options to customize next previous links.
 
-#### Options
+### Options
 
-###### Show on top
+##### Show on top
 This will enable next previous link on the top of the page, before question content.
 
-###### Show on bottom
+##### Show on bottom
 This will enable next previous link on the bottom of the page, after all answers.
 
-###### Button style
+##### Button style
 Select button style for next previous link. There are total 15 styles available. "theme" will autometically adopt active theme's style.
 
-###### Previous lable
+##### Previous lable
 Define lable for Previous link. (ASCII characterset allowed. e.g "&larr;" will add left arrow).
 
-###### Next lable
+##### Next lable
 Define lable for Previous link. (ASCII characterset allowed. e.g "&rarr;" will add right arrow).
 
-###### Save Changes
+##### Save Changes
 Will save all changes.
 
-###### Reset to Defaults
+##### Reset to Defaults
 Will discard all changes and reset to default settings.
 
 
