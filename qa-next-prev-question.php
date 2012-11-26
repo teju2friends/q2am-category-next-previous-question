@@ -3,7 +3,7 @@
 *	Q2AM Next Previous Question
 *
 *	Add next previous question link to the question page.
-*	File: Theme output
+*	File: Plugin output
 *	
 *	@author			Q2A Market
 *	@category		Plugin
