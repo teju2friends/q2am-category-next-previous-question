@@ -18,14 +18,9 @@ class qa_html_theme_layer extends qa_html_theme_base {
 
 
 	function head_css() {
-		qa_html_theme_base:: head_css();
-
-		$stylesheet_path = qa_opt('site_url').'qa-plugin/q2am-next-prev-question/';		
-		
-		$this->output('			
-			<link rel="stylesheet" type="text/css" href="'.$stylesheet_path.'q2am-np-style.css">
-		');
-		
+		qa_html_theme_base::head_css();
+		$plugin_root = qa_opt('site_url').'qa-plugin/q2am-next-previous-question/'; 
+		$this->output('<LINK REL="stylesheet" TYPE="text/css" HREF="'.$plugin_root.'q2am-np-style.css"/>');		
 	}
 
 
