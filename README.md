@@ -1,7 +1,7 @@
-Q2AM Next Previous Question
+Q2AM Next Previous Question in Same Category
 ===========================
 
-This plugin will add next previous link on single question page.
+This plugin will add next previous link on single question page to navigate within same category.
 
 Installation Guide
 ------------------
