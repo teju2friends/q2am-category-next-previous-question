@@ -30,12 +30,7 @@ class qa_html_theme_layer extends qa_html_theme_base {
 		$myurlpieces = explode("/", $myurl);
 		$myurl=$myurlpieces[0];
 	
-		$query_p = "SELECT * 
-					FROM ^posts 
-					WHERE postid < $myurl
-					AND type='Q'
-					ORDER BY postid DESC
-					LIMIT 1";
+		$query_p = "SELECT * FROM ^posts  WHERE postid < $myurl AND type='Q' and categoryid = (SELECT categoryid FROM qa_posts WHERE postid = $myurl) ORDER BY postid DESC LIMIT 1";
 
 		$prev_q = qa_db_query_sub($query_p);
 		
@@ -59,12 +54,7 @@ class qa_html_theme_layer extends qa_html_theme_base {
 		$myurl=$myurlpieces[0];
 		 
 		
-		$query_n = "SELECT * 
-					FROM ^posts 
-					WHERE postid > $myurl
-					AND type='Q'
-					ORDER BY postid ASC
-					LIMIT 1";
+		$query_n = "SELECT * FROM ^posts  WHERE postid > $myurl AND type='Q' and categoryid = (SELECT categoryid FROM qa_posts WHERE postid = $myurl) ORDER BY postid ASC LIMIT 1";
 
 		$next_q = qa_db_query_sub($query_n);
 		
